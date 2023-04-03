@@ -12,28 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&family=M+PLUS+Rounded+1c:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <title>Portfolio 2014-2022 | Email Newsletter　TARA BLANCA</title>
+    <title>Portfolio 2014-2022 | EC site　わたしゴハン。あなたゴハン。</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
-<script>
-jQuery(document).ready(function() {
-var offset = 100;
-var duration = 500;
-jQuery(window).scroll(function() {
-if (jQuery(this).scrollTop() > offset) {
-jQuery('#pagetop').fadeIn(duration);
-} else {
-jQuery('#pagetop').fadeOut(duration);
-}
-});
-
-jQuery('#pagetop').click(function(event) {
-event.preventDefault();
-jQuery('html, body').animate({scrollTop: 0}, duration);
-return false;
-})
-});
-</script>
   </head>
   <body>
       <header>
@@ -41,12 +22,16 @@ return false;
         <p>2014-2022</p>
       </header>
         <main>
-          <h2>TARA BLANCA<br>
-            2019-2020</h2>
-          <div class="discription">メルマガ作成・企画 など<br>
-          週2回の配信を行なっていました。</div>
-          <div class="work"><img src="img/item03-1.png"></div>
-          <div class="top-btn" id="pagetop"><a href="#"><i class="fas fa-chevron-circle-up fa-3x"></i></a></div>
+          <h2><a href="https://shop.watashigohan.jp/shop/default.aspx" target="_blank">わたしゴハン。あなたゴハン。<i class="fas fa-link fa-xs" style="margin-left: 8px; font-size: 0.9rem;" aria-hidden="true"></i></a><br>
+            2021-2022</h2>
+          <div class="discription">特集ページ（デザイン／コーディング）・ECサイト立ち上げ</div>
+            <ul class="page">
+              <input type="button" value="page.1" onclick="document.getElementById('cangeimg').src = 'img/item09-1.jpg';" class="number">
+              <input type="button" value="page.2" onclick="document.getElementById('cangeimg').src = 'img/item09-2.jpg';" class="number">
+              <input type="button" value="page.3" onclick="document.getElementById('cangeimg').src = 'img/item09-3.jpg';" class="number">
+              <input type="button" value="page.4" onclick="document.getElementById('cangeimg').src = 'img/item09-4.jpg';" class="number">
+            </ul>
+          <div class="work"><img src="img/item09-1.jpg" id="cangeimg"></div>
           </main>
       <footer>
         <p><small>&copy; 2021 Tanemura Satoko</small></p>
