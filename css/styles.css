@@ -20,6 +20,7 @@ header {
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
+  line-height: 1.4em;
   margin-top: 30px;
   padding-bottom: 20px;
 }
@@ -38,7 +39,7 @@ h2 > a:hover {
 }
 
 header > p {
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   padding-top: 20px;
   display: inline-block;
   border-top: dashed 1px;
@@ -189,8 +190,10 @@ footer {
   }
 
   .discription {
+    width: 90%;
     font-size: 0.875rem;
     text-align: center;
+    line-height: 1.785em;
   }
 
   .work img,
